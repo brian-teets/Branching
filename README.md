@@ -2,7 +2,7 @@
 
 ## Overview and cheat sheet of git commands
 
-Includes categories of basic and information commands. 
+Includes categories of basic and information commands.
 
 ### Basic Commands
 
@@ -15,10 +15,22 @@ Includes categories of basic and information commands.
 * `git status` - display status of local working directory to terminal
 * `git log` - list commit history of current branch along with unique hash identifier of each commit
 * `git log --oneline` - compact listing of commit history to one line per commit
-* `git config -l` - list local repo configuration 
+* `git config -l` - list local repo configuration
 
 ### Branching Commands
 
 * `git branch` - list local branches
 * `git branch branchName` - create local branch
 * `git checkout branchName` - checkout local branch `branchName`
+
+### General Workflow
+
+* `git pull origin main`
+* `git branch branchName`
+* `git checkout branchName`
+* `### work in your branch until task complete`
+* `git add/git commit`
+* `git pull origin main`
+* `### fix any merge conflicts and commit`
+* `git push origin branchName`
+* `### On github, create and merge pull request`
