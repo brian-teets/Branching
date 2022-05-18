@@ -2,6 +2,8 @@
 
 ## Overview and cheat sheet of git commands
 
+Includes categories of basic and information commands. 
+
 ### Basic Commands
 
 * `git init` - initialize a new local repository
