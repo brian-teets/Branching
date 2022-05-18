@@ -15,3 +15,10 @@ Includes categories of basic and information commands.
 * `git status` - display status of local working directory to terminal
 * `git log` - list commit history of current branch along with unique hash identifier of each commit
 * `git log --oneline` - compact listing of commit history to one line per commit
+* `git config -l` - list local repo configuration 
+
+### Branching Commands
+
+* `git branch` - list local branches
+* `git branch branchName` - create local branch
+* `git checkout branchName` - checkout local branch `branchName`
