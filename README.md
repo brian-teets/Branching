@@ -12,3 +12,8 @@
 * `git status` - show status of local working tree
 * `git log` - list commit history of current branch along with unique hash identifier of each commit
 * `git log --oneline` - compact listing of commit history to one line per commit
+
+### Branching Commands
+
+* `git branch` - list local branches
+* `git checkout branchName` - checkout local branch `branchName`
